@@ -770,6 +770,27 @@ M.style = function()
   highlight(0, "BlinkCmpMenuBorder", { link = "FloatBorder" })
   highlight(0, "BlinkCmpMenuSelection", { link = "MoonflyVisual" })
 
+  -- blink.indent plugin
+  --   base highlights
+  highlight(0, "BlinkIndent", { link = "IblIndent" })
+  highlight(0, "BlinkIndentScope", { link = "IblScope" })
+  --   colored indents
+  highlight(0, "BlinkIndentRed", { link = "MoonflyRed" })
+  highlight(0, "BlinkIndentOrange", { link = "MoonflyOrange" })
+  highlight(0, "BlinkIndentYellow", { link = "MoonflyYellow" })
+  highlight(0, "BlinkIndentGreen", { link = "MoonflyGreen" })
+  highlight(0, "BlinkIndentCyan", { link = "MoonflyTurquoise" })
+  highlight(0, "BlinkIndentBlue", { link = "MoonflyBlue" })
+  highlight(0, "BlinkIndentViolet", { link = "MoonflyViolet" })
+  --   colored underlines
+  highlight(0, "BlinkIndentRedUnderline", { sp = red, underline = true })
+  highlight(0, "BlinkIndentOrangeUnderline", { sp = orange, underline = true })
+  highlight(0, "BlinkIndentYellowUnderline", { sp = yellow, underline = true })
+  highlight(0, "BlinkIndentGreenUnderline", { sp = green, underline = true })
+  highlight(0, "BlinkIndentCyanUnderline", { sp = turquoise, underline = true })
+  highlight(0, "BlinkIndentBlueUnderline", { sp = blue, underline = true })
+  highlight(0, "BlinkIndentVioletUnderline", { sp = violet, underline = true })
+
   -- Bufferline plugin
   highlight(0, "BufferLineTabSelected", { fg = blue })
   highlight(0, "BufferLineIndicatorSelected", { fg = blue })
@@ -780,7 +801,7 @@ M.style = function()
   highlight(0, "DashboardHeader", { link = "MoonflyBlue" })
   highlight(0, "DashboardShortCut", { link = "MoonflyTurquoise" })
 
-  -- fzf-lua
+  -- fzf-lua plugin
   highlight(0, "FzfLuaBorder", { link = "FloatBorderTransparent" })
   highlight(0, "FzfLuaBufFlagAlt", { link = "MoonflyTurquoise" })
   highlight(0, "FzfLuaBufFlagCur", { link = "MoonflyOrange" })
@@ -1208,7 +1229,7 @@ M.style = function()
   highlight(0, "RainbowDelimiterViolet", { link = "MoonflyViolet" })
   highlight(0, "RainbowDelimiterCyan", { link = "MoonflyTurquoise" })
 
-  -- sidekick.nvim
+  -- sidekick.nvim plugin
   highlight(0, "SidekickDiffAdd", { link = "DiffAdd" })
   highlight(0, "SidekickDiffContext", { link = "DiffChange" })
   highlight(0, "SidekickDiffDelete", { link = "DiffDelete" })
@@ -1216,7 +1237,7 @@ M.style = function()
   highlight(0, "SidekickSignChange", { link = "GitSignsChange" })
   highlight(0, "SidekickSignDelete", { link = "GitSignsDelete" })
 
-  -- snacks.nvim
+  -- snacks.nvim plugin
   --   misc
   highlight(0, "SnacksWinBar", { link = "MoonflyBlue" })
   highlight(0, "SnacksScratchKey", { link = "DiagnosticInfo" })
