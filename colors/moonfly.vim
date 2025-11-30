@@ -28,8 +28,8 @@ let g:moonflyWinSeparator = get(g:, 'moonflyWinSeparator', 1)
 if has('nvim')
     lua require("moonfly").style()
 else
-    set termguicolors " Enable Vim true-color support
     call moonfly#Style()
 end
 
 set background=dark " moonfly is a dark theme
+set termguicolors   " moonfly is a true-color theme
